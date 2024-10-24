@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Block Shorts Reels",
+  "version": "0.1",
+  "description": "Block short or reels on youtube, instagram, facebook",
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
