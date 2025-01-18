@@ -16,9 +16,6 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "tabs",
-    "https://www.youtube.com/shorts/*",
-    "https://www.facebook.com/reel/*",
-    "https://www.instagram.com/reels/*"
+    "tabs"
   ]
 }
